@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  jupyter:
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - "8989:8989"
